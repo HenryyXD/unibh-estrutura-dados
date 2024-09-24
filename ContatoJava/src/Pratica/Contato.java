@@ -1,3 +1,5 @@
+package Pratica;
+
 public class Contato implements Comparable<Contato> {
     private String nome;
     private String telefone;
@@ -53,7 +55,7 @@ public class Contato implements Comparable<Contato> {
             return false;
         }
 
-        Contato outro = (Contato) obj;
+        Pratica.Contato outro = (Pratica.Contato) obj;
 
         if (nome == null) {
             if (outro.nome != null) {

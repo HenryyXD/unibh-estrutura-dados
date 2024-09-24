@@ -1,8 +1,10 @@
+package Pratica;
+
 import java.util.Stack;
 
 public class TestaPilha {
 
-    //Implementar TestaPilha.java usando a classe Stack do Java para:
+    //Implementar Pratica.TestaPilha.java usando a classe Stack do Java para:
     //Adicionar elemento - Empilhar (no topo da pilha)
     //Verificar o tamanho da pilha
     //Imprimir elementos da pilha (desempilhando)

@@ -1,3 +1,5 @@
+package Pratica;
+
 public class VetorObjetos {
 
 	private Object[] elementos; 

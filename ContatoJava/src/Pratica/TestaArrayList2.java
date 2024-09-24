@@ -1,3 +1,5 @@
+package Pratica;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
@@ -48,7 +50,7 @@ public class TestaArrayList2 {
                 case 1:
                     contato = ReadContato();
                     contatos.add(contato);
-                    System.out.println("Contato adicionado: " + contato);
+                    System.out.println("Pratica.Contato adicionado: " + contato);
                     break;
                 case 2:
                     System.out.println("Quantidade: " + contatos.size());
@@ -58,7 +60,7 @@ public class TestaArrayList2 {
                     break;
                 case 4:
                     pos = ReadPosition();
-                    System.out.println("Contato na posição " + pos + ": " + contatos.get(pos));
+                    System.out.println("Pratica.Contato na posição " + pos + ": " + contatos.get(pos));
                     break;
                 case 5:
                     contato = ReadContato();
@@ -68,12 +70,12 @@ public class TestaArrayList2 {
                     contato = ReadContato();
                     pos = ReadPosition();
                     contatos.add(pos, contato);
-                    System.out.println("Contato adicionado na posição " + pos + ": " + contato);
+                    System.out.println("Pratica.Contato adicionado na posição " + pos + ": " + contato);
                     break;
                 case 7:
                     pos = ReadPosition();
                     contatos.remove(pos);
-                    System.out.println("Contato na posição " + pos + " removido.");
+                    System.out.println("Pratica.Contato na posição " + pos + " removido.");
                     break;
                 case 8:
                     String pesquisaNome =  Read("nome");

@@ -1,3 +1,5 @@
+package Pratica;
+
 import java.util.ArrayList;
 
 public class TestaArrayList {
